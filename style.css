@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cantarell', sans-serif;
+  color: #111;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 6rem 2rem 3rem 2rem;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-linkedin {
+  font-size: 32px;
+  color: transparent;
+  -webkit-text-stroke: 1.5px #666;
+  text-decoration: none;
+}
+
+.nav-linkedin:hover {
+  -webkit-text-stroke-color: #111;
+}
+
+nav ul a {
+  font-size: 25px;
+  color: #666;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  color: #111;
+}
