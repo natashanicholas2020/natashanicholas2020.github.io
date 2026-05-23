@@ -162,3 +162,63 @@ nav ul a:hover {
   letter-spacing: 0;
   text-transform: none;
 }
+
+.project-featured {
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border: 1px solid #eee;
+}
+
+.project-featured:hover {
+  border-color: #ccc;
+}
+
+.project-page {
+  margin-top: 2rem;
+}
+
+.back-link {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.back-link:hover {
+  color: #111;
+}
+
+.project-page-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.project-page-desc {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.7;
+  max-width: 520px;
+  margin-bottom: 2rem;
+}
+
+.project-page-img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.project-link-wrapper {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.project-link-wrapper .project-featured {
+  margin-bottom: 0;
+}
