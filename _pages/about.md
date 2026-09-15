@@ -3,11 +3,11 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  <a href='https://fulbright.ca/programs/killam-fellowships/'>Fulbright Killam Fellow</a> &nbsp;·&nbsp; <a href='https://hkn.ieee.org/'>IEEE Member (ΗΚΝ)</a> &nbsp;·&nbsp; Boston, MA
+  Boston, MA
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     
@@ -28,8 +28,8 @@ latest_posts:
 
 
 
-My name is Shane Holmes, I'm an engineer with a Bachelor's in Computer Engineering and a Master's in Computer Science. I have a wide range of interests in the fields of electrical, computer, and software engineering. 
+My name is Natasha Nicholas, I'm an engineer with a Bachelor's and Master's in Computer Science I also have a degree in biology. My interested include software development and UX design. 
 
-My work spans a range of disciplines; I've developed a LiDAR mapping system, built CV localization for a surgical robot, and taken on a plethora of hardware projects including a fully articulated robotic hand. I was a Fulbright Canada Killam Fellow, which took me to the University of Toronto for an academic exchange focused on furthering my education and experiencing Canadian culture.
+I'm a recent graduate and have experience building systems from APIs and databases to computer vision and AI driven applications, as well as working with data to uncover insights and inform decisions. I'm a detail oriented problem solver who enjoys tackling technical challenges from multiple angles and communicating solutions clearly to others. I'm looking to grow in a technical role where I can combine my engineering, analytical, and communication skills.
 
-I tend to gravitate more toward interdisciplinary problems because I enjoy working on novel challenges. These challenges give me the opportunity to learn new concepts. 
+I also love crochet and running :)
