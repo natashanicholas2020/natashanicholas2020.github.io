@@ -26,10 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+My name is Natasha Nicholas, and I'm an engineer with a Bachelor's and Master's in Computer Science, along with a Pre-Med track background. My interests include full stack development and data analytics.
 
-
-My name is Natasha Nicholas, I'm an engineer with a Bachelor's and Master's in Computer Science I also have a degree in biology. My interested include software development and UX design. 
-
-I'm a recent graduate and have experience building systems from APIs and databases to computer vision and AI driven applications, as well as working with data to uncover insights and inform decisions. I'm a detail oriented problem solver who enjoys tackling technical challenges from multiple angles and communicating solutions clearly to others. I'm looking to grow in a technical role where I can combine my engineering, analytical, and communication skills.
-
-I also love crochet and running :)
+I'm a recent graduate with experience building systems that span APIs, databases, computer vision, and AI driven applications, as well as working with data to uncover insights and inform decisions. I'm a detail oriented problem solver who enjoys approaching technical challenges from multiple angles and communicating solutions clearly to others. I'm looking to grow in a technical role where I can bring together my engineering, analytical, and communication skills.
