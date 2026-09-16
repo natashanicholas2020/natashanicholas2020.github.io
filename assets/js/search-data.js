@@ -104,21 +104,21 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%73%68%61%6E%65%68%6F%6C%6D%65%73%32%30%31%30@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%6E%6E%69%63%68%6F%6C%61%73%32%30%32%30@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://github.com/shaneholmes10", "_blank");
+          window.open("https://github.com/natashanicholas2020", "_blank");
         },
       },{
         id: 'social-linkedin',
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/shaneholmes2010", "_blank");
+          window.open("https://www.linkedin.com/in/natasha-nicholas-2245621a8", "_blank");
         },
       },{
       id: 'light-theme',
