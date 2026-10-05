@@ -1,17 +1,17 @@
 cv:
-  name: Shane Holmes
+  name: Natasha Nicholas
   label: Computer Engineer
   location: Boston, MA
-  email: shaneholmes2010@gmail.com
+  email: nnicholas2020@gmail.com
   image: ""
-  summary: Computer Engineer with experience in embedded systems, robotics, and software development. Passionate about working on novel challenges in an interdisciplinary environment. Affiliations with the Fulbright Killam Fellowship and IEEE HKN.
+  summary: Experience building full-stack applications, APIs, and databases, applying computer vision and machine learning, and analyzing data to inform decisions. Interested in sales engineering and full-stack development.
 
-  website: https://shaneholmes10.github.io
+  website: https://natashanicholas2020.github.io
   social_networks:
     - network: LinkedIn
-      username: shaneholmes2010
+      username: natasha-nicholas-2245621a8
     - network: GitHub
-      username: ShaneHolmes10
+      username: nnicholas2020
 
   sections:
     Education:
@@ -22,56 +22,43 @@ cv:
         start_date: 2024
         end_date: 2026
 
-      - institution: Florida Polytechnic University
-        location: Lakeland, FL
-        area: Computer Engineering
-        studyType: Bachelor of Science
-        start_date: 2019
-        end_date: 2023
-        highlights:
-          - Graduated Magna Cum Laude
-
-      - institution: University of Toronto
-        location: Toronto, ON
-        area: Computer Science
-        studyType: Exchange Student
-        start_date: 2022-09
-        end_date: 2023-01
-        highlights: 
-          - Academic Exchange with Fulbright
+      - institution: College of the Holy Cross
+        location: Worcester, MA
+        area: Computer Science, Pre-Medical Track
+        studyType: Bachelor of Arts
+        start_date: 2020
+        end_date: 2024
 
     Experience:
-      - company: Overhead Intelligence
-        position: Computer / Robotics / Embedded Engineer
-        location: Lake Wales, FL
-        start_date: 2023-10
+      - company: Garment Valet
+        position: Digital Project Management Intern
+        location: Boston, MA
+        start_date: 2026-06
+        end_date: present
+        highlights:
+          - Integrated company software into a new internal system using API calls to streamline data flow between platforms
+          - Built personalized landing pages for concierges to drive inbound customer inquiries and expand the client base
+          - Reached out to concierge clients to review their needs and explain how the program and dashboard benefited them
+
+      - company: Karh
+        position: Data Analytics Intern
+        location: Cambridge, MA
+        start_date: 2025-08
+        end_date: 2025-10
+        highlights:
+          - Compiled monthly energy usage data across 3 years for multiple building types across New York City
+          - Analyzed energy usage per building, identifying major usage times within a given day and across the year
+          - Modeled optimal allocation of the company's battery storage across city areas and building types
+
+      - company: Hupp Lab, College of the Holy Cross
+        position: Research Assistant
+        location: Worcester, MA
+        start_date: 2023-08
         end_date: 2024-05
         highlights:
-          - Worked on the electrical and computer systems of a battery-powered UAV
-          - Designed and implemented LiDAR-based mapping
-          - Collaborated with a multidisciplinary team of engineers and participated in in-field deployment
-          - "Technologies: Odroid, STM32, Raspberry Pi, C++/C, Python"
-
-      - company: SS Innovations (AVRA Medical Robotics)
-        position: Computer / Robotics / Software Engineer
-        location: Orlando, FL
-        start_date: 2022-05
-        end_date: 2022-09
-        highlights:
-          - Worked on the computer vision sensor system for a surgical robot arm to identify facial landmarks
-          - Achieved accurate simulation test results for surgical motion and object identification
-          - "Technologies: Python, OpenCV, Robot arm"
-
-      - company: Advanced Mobility Institute
-        position: Research Assistant / Robotics & Software Engineer
-        location: Lake Wales, FL
-        start_date: 2021-01
-        end_date: 2022-01
-        highlights:
-          - Developed a fleet of small robot vehicles to autonomously navigate and coordinate in an environment
-          - Built electrical motor systems and an ArUco sensor system to identify vehicles
-          - Achieved vehicle convoy movement and dynamic obstacle avoidance of objects greater than 3 inches consistently
-          - "Technologies: Python, C++/C, OpenCV, Electronics"
+          - Ran biofuel samples through GC-MS to analyze chemical composition
+          - Built PCA-based clustering and classification programs in R to analyze biofuel sample chemical composition
+          - Presented technical findings at an academic conference
 
     Skills:
       - name: Programming Languages
