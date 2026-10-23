@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "This is a collection of some interesting work that I&#39;ve done.",
+          description: "Selected work",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -50,31 +50,31 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-3d-renderer",
-          title: '3D Renderer',
-          description: "CPU Software Rasterizer built from first principles in C++",
+          section: "News",},{id: "projects-built-it",
+          title: 'Built-It',
+          description: "A location-based AR game where players collect virtual items around the real world.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3d_renderer/";
-            },},{id: "projects-mock-rover",
-          title: 'Mock Rover',
-          description: "FSI Capstone Project — NASA Space Grant Consortium",
+              window.location.href = "/projects/built_it/";
+            },},{id: "projects-pac-man-ai-agent",
+          title: 'Pac-Man AI Agent',
+          description: "A Q-learning agent trained to play Pac-Man, evaluated over 1,000 games.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/fsi_rover/";
-            },},{id: "projects-hand-robot",
-          title: 'Hand Robot',
-          description: "Commissioned Project — Fully Articulated Robotic Hand",
+              window.location.href = "/projects/pacman_ai_agent/";
+            },},{id: "projects-patient-portal",
+          title: 'Patient Portal',
+          description: "A team-built portal letting pharmacists view patient medications and prescribing physicians.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/hand_robot/";
-            },},{id: "projects-latent-explorer",
-          title: 'Latent Explorer',
-          description: "Unsupervised Latent Space Visualizer — PyTorch training pipeline with interactive browser-based inference",
+              window.location.href = "/projects/patient_portal/";
+            },},{id: "projects-social-media-platform",
+          title: 'Social Media Platform',
+          description: "A full-stack social media app with RESTful APIs and MongoDB schemas powering its core features.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/latent_explorer/";
-            },},{id: "projects-motor-babbling",
-          title: 'Motor Babbling',
-          description: "Teaching a simulated robot arm to reach arbitrary targets through reinforcement learning",
+              window.location.href = "/projects/social_media_platform/";
+            },},{id: "projects-space-flight",
+          title: 'Space Flight',
+          description: "A real-time object tracking pipeline comparing centroid tracking and optical flow.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/motor_babbling/";
+              window.location.href = "/projects/space_flight/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
