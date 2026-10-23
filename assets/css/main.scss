@@ -37,3 +37,74 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+// ---------------------------------------------------------------------------
+// Newspaper theme — paste this at the very END of assets/css/main.scss
+// (below all the @import lines) so it overrides the default colors and fonts.
+// ---------------------------------------------------------------------------
+
+// Light mode: newsprint paper and ink
+:root {
+  --global-bg-color: #efe8d8; // newsprint
+  --global-card-bg-color: #f6f1e4; // slightly lighter paper for cards
+  --global-code-bg-color: #e6dcc6;
+  --global-text-color: #1c1a17; // ink
+  --global-text-color-light: #5e574c; // faded ink for secondary text
+  --global-theme-color: #9b2226; // masthead red (links, active menu item)
+  --global-hover-color: #6e1619;
+  --global-hover-text-color: #f6f1e4;
+  --global-highlight-color: #9b2226;
+  --global-divider-color: rgba(28, 26, 23, 0.18);
+  --global-distill-app-color: #5e574c;
+  --global-footer-bg-color: #1c1a17;
+  --global-footer-text-color: #d9cfb8;
+  --global-footer-link-color: #efe8d8;
+}
+
+// Dark mode: the same paper and ink, reversed
+html[data-theme="dark"] {
+  --global-bg-color: #1f1c18;
+  --global-card-bg-color: #282420;
+  --global-code-bg-color: #2e2a25;
+  --global-text-color: #e8e0cc;
+  --global-text-color-light: #a89f8c;
+  --global-theme-color: #d9776f;
+  --global-hover-color: #e89a93;
+  --global-hover-text-color: #1f1c18;
+  --global-highlight-color: #d9776f;
+  --global-divider-color: rgba(232, 224, 204, 0.16);
+  --global-distill-app-color: #a89f8c;
+  --global-footer-bg-color: #14120f;
+  --global-footer-text-color: #a89f8c;
+  --global-footer-link-color: #e8e0cc;
+}
+
+// Type: Caslon headlines, Source Serif body text
+body {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.post-title {
+  font-family: "Libre Caslon Display", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+}
+
+.navbar,
+.nav-link {
+  font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+
+// Masthead rule under the top bar
+.navbar {
+  box-shadow: none;
+  border-bottom: 3px double var(--global-text-color);
+}
