@@ -115,11 +115,13 @@ layout: default
               {% endif %}
               {% for network in cv.social_networks %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>{{ network.network }}</b></td>
+                  <td class="p-1 pr-2 font-weight-bold">
+                    <b>{{ network.network }}</b>
+                  </td>
                   <td class="p-1 pl-2 font-weight-light">
-                    {% if network.network == "LinkedIn" %}
+                    {% if network.network == 'LinkedIn' %}
                       <a href="https://linkedin.com/in/{{ network.username }}" target="_blank">linkedin.com/in/{{ network.username }}</a>
-                    {% elsif network.network == "GitHub" %}
+                    {% elsif network.network == 'GitHub' %}
                       <a href="https://github.com/{{ network.username }}" target="_blank">github.com/{{ network.username }}</a>
                     {% else %}
                       {{ network.username }}

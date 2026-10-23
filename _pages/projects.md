@@ -2,64 +2,42 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This is a collection of some interesting work that I've done.
+description: Selected work
 nav: true
-nav_order: 3
-display_categories: [work]
-horizontal: false
+nav_order: 2
 ---
-
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
+<div class="np">
+<header class="np-masthead">
+<h1 class="np-title">Projects</h1>
+<div class="np-dateline">
+<span>Selected work</span>
+<span class="np-dateline-mid">Natasha Nicholas</span>
+<span>{{ site.time | date: "%B %Y" }}</span>
+</div>
+</header>
+{% assign projects = site.projects | sort: "importance" %}
+{% assign lead = projects.first %}
+<article class="np-lead{% unless lead.img %} np-lead--text{% endunless %}">
+<div class="np-lead-text">
+<p class="np-kicker">{{ lead.tech }}</p>
+<h2 class="np-headline"><a href="{{ lead.url | relative_url }}">{{ lead.title }}</a></h2>
+<p class="np-summary">{{ lead.summary }}</p>
+<a class="np-read" href="{{ lead.url | relative_url }}">Read the full story</a>
+<blockquote class="np-quote">“I enjoy approaching technical challenges from multiple angles.”</blockquote>
+</div>
+{% if lead.img %}
+<figure class="np-lead-img"><img src="{{ lead.img | relative_url }}" alt="{{ lead.title }}"></figure>
 {% endif %}
+</article>
+<h2 class="np-section">More projects</h2>
+<div class="np-grid">
+{% for project in projects offset:1 %}
+<article class="np-story">
+<p class="np-kicker">{{ project.tech }}</p>
+<h3 class="np-story-title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+<p>{{ project.description }}</p>
+<a class="np-read" href="{{ project.url | relative_url }}">Read more</a>
+</article>
+{% endfor %}
+</div>
 </div>

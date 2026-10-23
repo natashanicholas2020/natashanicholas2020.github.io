@@ -35,7 +35,6 @@ So there's this issue with the [renderer](/projects/3d_renderer/) where it can't
     </div>
 </div>
 
-
 <div class="row justify-content-center mt-3 mb-3">
     <div class="col-sm-3 mt-3 mt-md-0">
         <div style="aspect-ratio: 4/3; overflow: hidden; border-radius: 0.5rem;">
@@ -107,6 +106,7 @@ Before any rasterization starts, we allocate a depth buffer to have the same dim
 </div>
 
 When we start to render a triangle we will iterate pixel by pixel within its bounding box.
+
 1. Determine if the pixel is in the triangle
 2. Compute barycentric weights
 3. Linearly interpolate 1/z at that pixel
@@ -205,6 +205,7 @@ Now my house is beautiful and not glitching out.
 ## Next Steps
 
 One thing is that right now the depth buffer and the frame buffer are two separate unrelated objects. The consequence of this is that I actually can't render the depth buffer to the viewport because it's not compatible. Which is a shame because I think it would be cool to see the depth buffer.
+
 - One way to potentially fix this is to refactor the viewport to accept a general visualization buffer, where frame buffer and depth buffer are subclasses.
 - Another way would be to have a method in depth buffer that can produce a frame buffer and then pass that to the viewport?
 

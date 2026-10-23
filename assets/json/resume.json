@@ -29,9 +29,7 @@
       "startDate": "2023-10-01",
       "endDate": "2024-05-01",
       "summary": "",
-      "highlights": [
-        "C++/C, Python, Raspberry Pi, STM32, ESP32, Odroid, LiDAR, Git"
-      ]
+      "highlights": ["C++/C, Python, Raspberry Pi, STM32, ESP32, Odroid, LiDAR, Git"]
     },
     {
       "name": "SS Innovations (Formerly AVRA Medical Robotics)",
@@ -40,9 +38,7 @@
       "startDate": "2022-05-01",
       "endDate": "2022-09-01",
       "summary": "",
-      "highlights": [
-        "Python, OpenCV, Git"
-      ]
+      "highlights": ["Python, OpenCV, Git"]
     },
     {
       "name": "Advanced Mobility Institute",
@@ -51,9 +47,7 @@
       "startDate": "2021-01-01",
       "endDate": "2022-01-01",
       "summary": "",
-      "highlights": [
-        "C++/C, Python, Raspberry Pi, OpenCV, Electronics"
-      ]
+      "highlights": ["C++/C, Python, Raspberry Pi, OpenCV, Electronics"]
     }
   ],
   "education": [
@@ -178,13 +172,28 @@
       "name": "Software Development",
       "level": "",
       "icon": "fa-solid fa-laptop-code",
-      "keywords": ["Git", "Object Oriented Programming", "Software Design", "Software Testing", "Software Documentation", "Embedded Systems", "REST API"]
+      "keywords": [
+        "Git",
+        "Object Oriented Programming",
+        "Software Design",
+        "Software Testing",
+        "Software Documentation",
+        "Embedded Systems",
+        "REST API"
+      ]
     },
     {
       "name": "Technical Areas",
       "level": "",
       "icon": "fa-solid fa-brain",
-      "keywords": ["Machine Learning", "Artificial Intelligence", "Computer Networking", "Digital Signal Processing", "Digital Image Processing", "Vision System Design"]
+      "keywords": [
+        "Machine Learning",
+        "Artificial Intelligence",
+        "Computer Networking",
+        "Digital Signal Processing",
+        "Digital Image Processing",
+        "Vision System Design"
+      ]
     },
     {
       "name": "Collaborative Tools",
