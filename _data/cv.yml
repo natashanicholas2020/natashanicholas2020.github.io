@@ -1,17 +1,17 @@
 cv:
   name: Natasha Nicholas
-  label: Computer Engineer
+  label: Software Engineer
   location: Boston, MA
   email: nnicholas2020@gmail.com
   image: ""
-  summary: Experience building full-stack applications, APIs, and databases, applying computer vision and machine learning, and analyzing data to inform decisions. Interested in sales engineering and full-stack development.
+  summary: Engineer with a Bachelor's and Master's in Computer Science and a Pre-Med track background. Experience building full-stack applications, APIs, and databases, applying computer vision and machine learning, and analyzing data to inform decisions. Interested in full-stack development and data analytics.
 
   website: https://natashanicholas2020.github.io
   social_networks:
     - network: LinkedIn
       username: natasha-nicholas-2245621a8
     - network: GitHub
-      username: nnicholas2020
+      username: natashanicholas2020
 
   sections:
     Education:
@@ -19,15 +19,15 @@ cv:
         location: Boston, MA
         area: Computer Science
         studyType: Master of Science
-        start_date: 2024
-        end_date: 2026
+        start_date: 2024-09
+        end_date: 2026-04
 
       - institution: College of the Holy Cross
         location: Worcester, MA
         area: Computer Science, Pre-Medical Track
         studyType: Bachelor of Arts
-        start_date: 2020
-        end_date: 2024
+        start_date: 2020-09
+        end_date: 2024-05
 
     Experience:
       - company: Garment Valet
@@ -43,170 +43,101 @@ cv:
       - company: Karh
         position: Data Analytics Intern
         location: Cambridge, MA
-        start_date: 2025-08
-        end_date: 2025-10
+        start_date: 2025-09
+        end_date: 2025-12
         highlights:
           - Compiled monthly energy usage data across 3 years for multiple building types across New York City
           - Analyzed energy usage per building, identifying major usage times within a given day and across the year
           - Modeled optimal allocation of the company's battery storage across city areas and building types
 
+      - company: LensCrafters
+        position: Sales Associate
+        location: Braintree, MA
+        start_date: 2025-06
+        end_date: present
+        highlights:
+          - Assisted customers with exam scheduling and eyewear selection while supporting store operations
+          - Reviewed performance metrics on customer interactions against store sales and service goals to adjust approach
+
       - company: Hupp Lab, College of the Holy Cross
-        position: Research Assistant
+        position: Research Student
         location: Worcester, MA
-        start_date: 2023-08
+        start_date: 2023-09
         end_date: 2024-05
         highlights:
           - Ran biofuel samples through GC-MS to analyze chemical composition
           - Built PCA-based clustering and classification programs in R to analyze biofuel sample chemical composition
           - Presented technical findings at an academic conference
 
-    Skills:
-      - name: Programming Languages
-        icon: fa-solid fa-code
-        keywords: "Python, C++, C, Java"
-
-      - name: Python Libraries
-        icon: fa-brands fa-python
-        keywords: "NumPy, Pandas, Matplotlib, OpenCV, Threading, PyTorch, TensorFlow, Keras, Scikit-learn"
-
-      - name: Embedded & Hardware
-        icon: fa-solid fa-microchip
-        keywords: "Raspberry Pi, Arduino, ESP32, STM32, Odroid, AVR, Linux, Embedded Linux"
-
-      - name: Robotics & Autonomy
-        icon: fa-solid fa-robot
-        keywords: "Computer Vision, LiDAR, IMU, SLAM, GPS, UAV"
-
-      - name: Software Development
-        icon: fa-solid fa-laptop-code
-        keywords: "Git, OOP, Software Design, Software Testing, Software Documentation, Embedded Systems"
-
-      - name: Technical Areas
-        icon: fa-solid fa-brain
-        keywords: "Machine Learning, Artificial Intelligence, Computer Vision, Digital Signal Processing, Robotics, Hardware, Software"
-
-      - name: Collaborative Tools
-        icon: fa-solid fa-users
-        keywords: "Jira, Confluence, Slack, Microsoft Teams, Zoom, Visual Studio"
-
     Projects:
-      - name: Mock Rover — FSI Capstone Project
-        url: /projects/fsi_rover/
+      - name: Social Media Platform
+        summary: Full-stack social media application.
+        highlights:
+          - Built a full-stack social media app with RESTful APIs and MongoDB schemas powering core functionality
+          - Integrated third-party APIs to handle media uploads and content processing
+          - "Technologies: React.js, TypeScript, Node.js, MongoDB"
+
+      - name: Patient Portal
+        summary: Team-built portal for pharmacists to view patient medications and prescribing physicians.
+        highlights:
+          - Collaborated in a team to build a portal allowing pharmacists to view patient medications and prescribing physicians
+          - Primarily developed SQL queries to structure and retrieve patient and medication data
+          - "Technologies: Python, SQL"
+
+      - name: Space Flight
+        summary: Real-time object detection and tracking pipeline.
+        highlights:
+          - Built a real-time pipeline in OpenCV to detect objects from pixel data, comparing centroid tracking and optical flow
+          - Built an evaluation pipeline comparing tracker accuracy across noise levels, with automated error logging and plotting
+          - "Technologies: Python, C++, OpenCV"
+
+      - name: Pac-Man AI Agent
+        summary: Reinforcement learning agent for Pac-Man.
+        highlights:
+          - Collaborated in a team to implement a Q-learning agent with epsilon decay, trained over episodes in a custom environment
+          - Built a softmax-based evaluation policy to measure win rate and average reward over 1,000 episodes
+          - "Technologies: Python"
+
+      - name: Built-It
+        summary: Location-based AR game for iOS.
+        highlights:
+          - Collaborated in a team to create an AR game combining user location with an item collection and crafting mechanic
+          - Led app design, enabling users to navigate to real-world coordinates and collect virtual items to craft a final item
+          - "Technologies: Swift"
+
+    Leadership:
+      - company: College of the Holy Cross
+        position: Student Advisory Committee Chair
+        location: Worcester, MA
         start_date: 2022-09
-        end_date: 2023-05
-        summary: built a mock rover for the NASA Space Grant Consortium program through Florida Space Institute.
+        end_date: 2024-05
         highlights:
-          - Led technical integration of embedded control systems designing a Raspberry Pi-based architecture coordinating four AC motors, stereoscopic camera feed, and wireless command interface
-          - Achieved ~100ft wireless range, 300lb payload capacity, and 5mph traverse speed
-          - "Technologies: Python, C++, Raspberry Pi, Arduino Uno, motor control systems, OpenCV, 3D printing"
+          - Compiled and presented student course evaluation data to support faculty tenure and promotion reviews
 
-      - name: Hand Robot — Commissioned Project
-        url: /projects/hand_robot/
-        start_date: 2020-11
-        end_date: 2021-02
-        summary: Designed and fabricated a fully articulated robotic hand with individual finger control and accompanying arm.
-        highlights:
-          - Iteratively designed hand and arm in CAD with custom 3D printed components
-          - Engineered servo control circuits on Arduino platform for individual finger articulation
-          - Developed desktop application in C++ for real-time articulation control
-          - "Technologies: Arduino, C++, CAD, 3D printing, servo control systems"
+    Skills:
+      - name: Languages
+        icon: fa-solid fa-code
+        keywords: "Python, Java, C++, JavaScript, TypeScript, SQL, R, MATLAB, Swift, Bash, Scheme, HTML, CSS"
 
-      - name: 3D CPU Software Rasterizer
-        url: /projects/3d_renderer/
-        start_date: 2025-12
-        summary: Built a 3D software rendering engine from first principles in C++ for CPU.
-        highlights:
-          - Full graphics pipeline — model space through screen space — implemented manually using 4x4 matrices
-          - Triangle rasterization using edge functions and barycentric coordinates
-          - Scene graph with hierarchical parent-child entity system and automatic world matrix propagation
-          - "Technologies: C++, CMake, Eigen, SFML, CppUnitLite"
+      - name: Frameworks & Libraries
+        icon: fa-solid fa-layer-group
+        keywords: "React.js, Node.js, OpenCV"
 
-      - name: Latent Explorer
-        url: /projects/latent_explorer/
-        start_date: 2026-04
-        summary: End-to-end tool for training and interactively visualizing the latent space of image datasets in the browser.
-        highlights:
-          - Trained a convolutional decoder on ~202k face images with PCA post-processing to surface principal axes of variation
-          - Exported model to ONNX and built a pure-JavaScript browser interface running inference with no backend
-          - "Technologies: PyTorch, ONNX Runtime Web, scikit-learn, HDF5"
+      - name: Databases
+        icon: fa-solid fa-database
+        keywords: "MongoDB, SQL"
 
-      - name: Motor Babbling — RL for Inverse Kinematics
-        url: /projects/motor_babbling/
-        start_date: 2026-02
-        end_date: 2026-04
-        summary: Implemented DQN, DDPG, and SAC to teach a simulated planar robot arm to reach arbitrary targets in MuJoCo.
-        highlights:
-          - Compared value-based (DQN), deterministic actor-critic (DDPG), and stochastic actor-critic (SAC) against the same environment; SAC achieved ~80% success
-          - Built the MuJoCo environment with a configurable number of links and a shared BaseAgent interface for clean algorithm comparison
-          - "Technologies: Python, PyTorch, MuJoCo, Gymnasium, NumPy, Matplotlib"
+      - name: Data & Machine Learning
+        icon: fa-solid fa-chart-line
+        keywords: "Data analysis and visualization, PCA, clustering and classification, reinforcement learning, computer vision"
+
+      - name: Tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Git, Figma, LaTeX, Make, Excel, Microsoft Office, Google Workspace"
 
     Relevant Coursework:
-      - label: Mathematics
-        details: Probability and Statistics, Differential Equations, Linear Algebra, Discrete Mathematics, Analytical Geometry and Calculus (1, 2, 3)
-      - label: Computer Engineering
-        details: Physics (1, 2), Computer Architecture and Organization, Microcomputers, Digital Logic Design, Circuits (1, 2), Digital Electronics, Computer Systems
-      - label: Software Engineering
-        details: Operating Systems Concepts, Data structures and Algorithms, Object Oriented Programming, Computer Programming, Computer Networks, Secure Software engineering, Programming Design Paradigms, Database Systems, Foundations in Software Engineering
-      - label: Robotics Systems
-        details: Autonomous Robotic Systems, Digital Signal Processing, Systems and Signals, Kinematics and control of Robotic Systems, Artificial Intelligence (1, 2), Machine Learning (1, 2), Computer Vision
-
-    Awards:
-      - title: Fulbright Canada Killam Fellowship
-        date: 2022
-        awarder: Fulbright Canada
-        image: /assets/img/fulbright_logo.png
-        summary: Competitive fellowship awarded to outstanding students for academic exchange between Canada and the United States.
-
-      - title: Magna Cum Laude
-        date: 2023-05
-        awarder: Florida Polytechnic University
-        summary: Graduated with high academic distinction.
-
-      - title: IEEE HKN Member
-        date: 2023
-        awarder: IEEE Eta Kappa Nu
-        summary: Member of the IEEE honor society chapter recognizing excellence in electrical and computer engineering.
-
-      - title: President's List
-        date: 2023
-        awarder: Florida Polytechnic University
-
-      - title: Bright Futures Scholarship
-        date: 2019
-        awarder: State of Florida
-
-      - title: Florida Polytechnic University Institutional Scholarship
-        date: 2019
-        awarder: Florida Polytechnic University
-
-    Skills:
-      - name: Programming Languages
-        icon: fa-solid fa-code
-        keywords: "Python, C++, C, Java"
-
-      - name: Python Libraries
-        icon: fa-brands fa-python
-        keywords: "NumPy, Pandas, Matplotlib, OpenCV, Threading, PyTorch, TensorFlow, Keras, Scikit-learn"
-
-      - name: Embedded & Hardware
-        icon: fa-solid fa-microchip
-        keywords: "Raspberry Pi, Arduino, ESP32, STM32, Odroid, AVR, Linux, Embedded Linux"
-
-      - name: Robotics & Autonomy
-        icon: fa-solid fa-robot
-        keywords: "Computer Vision, LiDAR, IMU, SLAM, GPS, UAV"
-
-      - name: Software Development
-        icon: fa-solid fa-laptop-code
-        keywords: "Git, OOP, Software Design, Software Testing, Software Documentation, Embedded Systems"
-
-      - name: Technical Areas
-        icon: fa-solid fa-brain
-        keywords: "Machine Learning, Artificial Intelligence, Computer Vision, Digital Signal Processing, Robotics, Hardware, Software"
-
-      - name: Collaborative Tools
-        icon: fa-solid fa-users
-        keywords: "Jira, Confluence, Slack, Microsoft Teams, Zoom, Visual Studio"
+      - label: Computer Science
+        details: Algorithms, Artificial Intelligence, Computer Vision, Data Mining, Databases, Machine Learning, Programming Design, Programming Languages, Web Development
 
     Languages:
       - name: English
